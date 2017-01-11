@@ -13,23 +13,28 @@
     <link href="/stylesheets/main.css" rel="stylesheet" />
     <script src="/javascripts/all.js"></script>
   </head>
-  <header class="mas-header">
+  <body class="index" id="body">
+    <header class="mas-header" id="mas-main-header">
     <div class="mas-header__content">
         <div class="mas-header__title">
-              <h1>Marc Sensenich</h1>
+              <h1><a href="http://www.marc-sensenich.com">Marc Sensenich</a></h1>
           </div>
         <div class="mas-header__social">
-                <a href=https://www.linkedin.com/in/marc-sensenich alt=View Marc Sensenich on Linkedin target="_blank">
-                    <img src="/images/linkedin.png" alt="Linkedin" />
-                </a>
-                <a href=https://github.com/marc-sensenich alt=View Marc Sensenich on GitHub target="_blank">
-                    <img src="/images/github.png" alt="Github" />
-                </a>
+            <a href=https://www.linkedin.com/in/marc-sensenich alt=View Marc Sensenich on Linkedin target="_blank">
+    <img src="/images/linkedin.png" alt="Linkedin" />
+</a>
+<a href=https://github.com/marc-sensenich alt=View Marc Sensenich on GitHub target="_blank">
+    <img src="/images/github.png" alt="Github" />
+</a>
+<a href=http://blog.marc-sensenich.com alt=Marc Sensenich's Blog target="_blank">
+    <img src="/images/blog.png" alt="Blog" />
+</a>
+
         </div>
     </div>
-</header>
-  <body class="index" id="body">
-    <section class="mas-section mas-section--experience" id=Experience>
+</header>    
+    <div class="mas-content" id="main-content">
+        <section class="mas-section mas-section--experience" id=Experience>
     <header class="mas-section__header">
         <h2>
             <span class="mas-section__header-text">Experience</span>
@@ -117,11 +122,24 @@
     </article>
 </section>
 
+        
+    </div>
+    <footer class="mas-footer">
+    <section class="mas-footer__social">
+        <a href=https://www.linkedin.com/in/marc-sensenich alt=View Marc Sensenich on Linkedin target="_blank">
+    <img src="/images/linkedin.png" alt="Linkedin" />
+</a>
+<a href=https://github.com/marc-sensenich alt=View Marc Sensenich on GitHub target="_blank">
+    <img src="/images/github.png" alt="Github" />
+</a>
+<a href=http://blog.marc-sensenich.com alt=Marc Sensenich's Blog target="_blank">
+    <img src="/images/blog.png" alt="Blog" />
+</a>
 
-  </body>
-  <footer class="mas-footer">
-    <section class="footer-attributions">
-        Built using <a href="https://middlemanapp.com/" class="mas-anchor">Middleman</a> and deployed to <a href="https://pages.github.com/" class="mas-anchor">GitHub Pages</a>
     </section>
-</footer>  
+    <section class="footer-attributions">
+        Built using <a href="https://middlemanapp.com/" class="mas-anchor" target="_blank">Middleman</a> and deployed to <a href="https://pages.github.com/" class="mas-anchor" target="_blank">GitHub Pages</a>
+    </section>
+</footer>    
+  </body>
 </html>
